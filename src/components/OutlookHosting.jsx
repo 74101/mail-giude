@@ -3,7 +3,7 @@ import {Notice} from "./Notice.jsx";
 export const OutlookHosting = () => {
 	return (
 		<>
-			<h2 className="text-3xl font-bold mb-5">Hosting</h2>
+			<h2 className="text-4xl font-bold mb-5">Microsoft Outlook (Hosting)</h2>
 			<ol className="list-decimal pl-6">
 				<li className="mb-6">
 					<p className="mb-2">Откройте Microsoft Outlook и перейдите в раздел "Файл".</p>
@@ -26,9 +26,9 @@ export const OutlookHosting = () => {
 						POP3 загружает email-сообщения на компьютер или устройство пользователя,
 						IMAP позволяет получать доступ к сообщениям непосредственно на сервере электронной почты.
 					</Notice>
-					<h3 className="text-xl mb-2">Для IMAP:</h3>
+					<h3 className="mb-2">Для IMAP:</h3>
 					<img src="/images/OUTLOOK_4_imap.jpg" alt="тип протокола IMAP"/>
-					<h3 className="text-xl mb-2 mt-4">Для POP3:</h3>
+					<h3 className="mb-2 mt-4">Для POP3:</h3>
 					<img src="/images/OUTLOOK_4_pop.jpg" alt="тип протокола POP3"/>
 				</li>
 				<li className="mb-6">
@@ -37,9 +37,9 @@ export const OutlookHosting = () => {
 				</li>
 				<li className="mb-6">
 					<p className="mb-2">Учетная запись успешно добавлена! Нажмите готово.</p>
-					<h3 className="text-xl mb-2">Для IMAP:</h3>
+					<h3 className="mb-2">Для IMAP:</h3>
 					<img src="/images/OUTLOOK_6_imap_finish.jpg" alt="IMAP успешно добавлена"/>
-					<h3 className="text-xl mb-2 mt-4">Для POP3:</h3>
+					<h3 className="mb-2 mt-4">Для POP3:</h3>
 					<img src="/images/OUTLOOK_6_pop_finish.jpg" alt="POP3 успешно добавлена"/>
 				</li>
 			</ol>
