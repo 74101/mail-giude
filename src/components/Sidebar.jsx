@@ -16,16 +16,17 @@ export const Sidebar = () => {
 	const links = [
 		{ label: 'Microsoft Outlook', subLinks: [
 				{ to: '/outlook-hosting', label: 'hosting' },
-				{ to: '/outlook-corp', label: 'corp' }
+				{ to: '/outlook-corp', label: 'corp' },
+				{ to: '/outlook-corp-ios', label: 'corp ios' }
 			]},
-		{ label: 'Mozilla ThunderbirdCorp', subLinks: [
+		{ label: 'Mozilla Thunderbird', subLinks: [
 				{ to: '/thunderbird-hosting', label: 'hosting' },
 				{ to: '/thunderbird-corp', label: 'corp' }
 			]},
-		{ label: 'Mailbird', subLinks: [
-				{ to: '/mailbird-hosting', label: 'hosting' },
-				{ to: '/mailbird-corp', label: 'corp' }
-			]}
+		// { label: 'Mailbird', subLinks: [
+		// 		{ to: '/mailbird-hosting', label: 'hosting' },
+		// 		{ to: '/mailbird-corp', label: 'corp' }
+		// 	]}
 	];
 
 	return (
